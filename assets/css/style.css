@@ -4,12 +4,8 @@
     padding: 0;
 }
 
-.sfondo{
-    /* background-image: url(../img/sfondo.jpg); */
-    /* height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center; */
+button{
+    display: block;
+    margin: 2rem;
+    padding: 1rem;
 }

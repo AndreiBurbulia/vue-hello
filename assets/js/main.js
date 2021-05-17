@@ -6,8 +6,22 @@ Bonus: Aggiungere alla pagina un’immagine, presa anch’essa da un data.
 const app = new Vue({
     el: "#app",
 
-    data: {
+    data:
+    {
         msg: "Benvenuto su Vue.js",
-        img: "./assets/img/sfondo_ride.jpg"
+        img: "./assets/img/bella_1.jpg",
+    },
+    methods:
+    {
+        cambiaImagine() {
+            if (this.img === "./assets/img/bella_1.jpg") {
+                this.img = "./assets/img/bella.png";
+            } else if (this.img === "./assets/img/bella.png") {
+                this.img = "./assets/img/bella_2.jpg";
+            } else {
+                this.img = "./assets/img/bella_1.jpg";
+
+            }
+        }
     }
 })
